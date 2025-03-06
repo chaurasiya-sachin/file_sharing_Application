@@ -12,7 +12,7 @@ app.use(fileRoute);
 
 // DB connection 
 mongoose
-    .connect("mongodb://127.0.0.1:27017/file_sharing_application")
+    .connect("mongodb+srv://chaurasiyasachin434:9HyZ9VkfxTDycEfw@myfirstcluster.6qqan.mongodb.net/")
     .then(()=> console.log("DB Connected Successfully")    )
     .catch(err=> console.log("Error while connecting to DB",err)    )
 
